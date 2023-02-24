@@ -1,0 +1,10 @@
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/CMakeFiles/INSTALL.dir
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/CMakeFiles/ALL_BUILD.dir
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/CMakeFiles/ZERO_CHECK.dir
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/flutter/CMakeFiles/INSTALL.dir
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/runner/CMakeFiles/ape_coder.dir
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/runner/CMakeFiles/INSTALL.dir
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/runner/CMakeFiles/ALL_BUILD.dir

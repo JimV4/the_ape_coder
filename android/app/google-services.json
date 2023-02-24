@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "221374756772",
+    "project_id": "apecoder-e695a",
+    "storage_bucket": "apecoder-e695a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221374756772:android:04ddb54fada3b48be4b331",
+        "android_client_info": {
+          "package_name": "com.example.ape_coder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221374756772-qaulqpv6j0603cna99fsstngo6lfm0hl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVPqbjsuMa5LLPf1bm0-yVaWypX-zL_K0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221374756772-brm85j8depqhejshkdpp46e53cpn3e77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

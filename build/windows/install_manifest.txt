@@ -1,0 +1,11 @@
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/runner/Debug/data/icudtl.dat
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/runner/Debug/flutter_windows.dll
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/runner/Debug/data/flutter_assets/assets/images/javaIcon.png
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/runner/Debug/data/flutter_assets/NOTICES
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+C:/dev/applications/TheApeCoder/ape_coder/build/windows/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag

@@ -1,0 +1,10 @@
+^C:\DEV\APPLICATIONS\THEAPECODER\APE_CODER\BUILD\WINDOWS\CMAKEFILES\4A10CD47F9D777562CB1A3621B6444C8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/dev/applications/TheApeCoder/ape_coder/windows -BC:/dev/applications/TheApeCoder/ape_coder/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/dev/applications/TheApeCoder/ape_coder/build/windows/ape_coder.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

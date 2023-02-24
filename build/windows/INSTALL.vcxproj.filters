@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\applications\TheApeCoder\ape_coder\build\windows\CMakeFiles\4a10cd47f9d777562cb1a3621b6444c8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{18FCE5DD-0705-3529-93D7-4FED97761196}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

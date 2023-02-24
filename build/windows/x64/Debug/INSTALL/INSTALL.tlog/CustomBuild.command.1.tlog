@@ -1,0 +1,10 @@
+^C:\DEV\APPLICATIONS\THEAPECODER\APE_CODER\BUILD\WINDOWS\CMAKEFILES\4A10CD47F9D777562CB1A3621B6444C8\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
