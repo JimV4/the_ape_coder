@@ -43,10 +43,10 @@ class _ProfileWidgetState extends State<ProfileWidget> {
         child: Column(
           children: <Widget>[
             SizedBox(
-              height: 50,
+              height: 35,
             ),
             Container(
-              height: 80.0,
+              height: 110.0,
               width: 350.0,
               decoration: BoxDecoration(
                 color: backgroundcolor,
@@ -88,9 +88,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                 ),
               ),
             ),
-            SizedBox(height: 150),
+            SizedBox(height: 35),
             Container(
-              height: 80.0,
+              height: 110.0,
               width: 350.0,
               decoration: BoxDecoration(
                 color: backgroundcolor,
@@ -132,9 +132,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                 ),
               ),
             ),
-            SizedBox(height: 150),
+            SizedBox(height: 35),
             Container(
-              height: 80.0,
+              height: 110.0,
               width: 350.0,
               decoration: BoxDecoration(
                 color: backgroundcolor,

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\dev\\applications\\TheApeCoder\\ape_coder\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\dev\\applications\\the_ape_coder\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\dev\\applications\\TheApeCoder\\ape_coder\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\dev\\applications\\the_ape_coder\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

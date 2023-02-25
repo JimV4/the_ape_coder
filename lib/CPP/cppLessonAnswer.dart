@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:ape_coder/CPP/CPPLesson.dart';
 import 'cppLessonCorrectAnswer.dart';
+import 'package:vibration/vibration.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 class CppLessonAnswerWidget extends StatefulWidget {
   final lessonName;
@@ -83,6 +85,10 @@ class _CppLessonAnswerWidgetState extends State<CppLessonAnswerWidget> {
                           onPressed: () {
                             userPost = _textController.text;
                             if (userPost == '42') {
+                              AudioPlayer()
+                                  .play(AssetSource('correct_answer.mp3'));
+                              Vibration.vibrate();
+
                               Navigator.of(context).push(
                                 MaterialPageRoute(
                                   builder: (context) =>
@@ -93,6 +99,10 @@ class _CppLessonAnswerWidgetState extends State<CppLessonAnswerWidget> {
                                 ),
                               );
                             } else {
+                              AudioPlayer()
+                                  .play(AssetSource('wrong_answer.mp3'));
+                              Vibration.vibrate();
+
                               ScaffoldMessenger.of(context).showSnackBar(
                                 SnackBar(
                                   behavior: SnackBarBehavior.floating,

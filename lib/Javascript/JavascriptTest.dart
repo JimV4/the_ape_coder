@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:ape_coder/Javascript/JavascriptTestSuccessful.dart';
 import 'JavascriptLessons.dart';
+import 'package:vibration/vibration.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 const backgroundcolor = Color.fromARGB(255, 47, 47, 47);
 bool Q1A_checked_javascript = false;
@@ -67,7 +69,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                   Padding(
                     padding: const EdgeInsets.only(bottom: 60),
                     child: Container(
-                      height: 510,
+                      height: 560,
                       width: 370,
                       decoration: BoxDecoration(
                         color: backgroundcolor,
@@ -111,7 +113,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                                 Text(
                                   "Option A",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -144,7 +146,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                                 Text(
                                   "Option B",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -176,7 +178,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                                 Text(
                                   "Option C",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -197,7 +199,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                   Padding(
                     padding: const EdgeInsets.only(bottom: 60),
                     child: Container(
-                      height: 510,
+                      height: 560,
                       width: 370,
                       decoration: BoxDecoration(
                         color: backgroundcolor,
@@ -241,7 +243,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                                 Text(
                                   "Option A",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -274,7 +276,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                                 Text(
                                   "Option B",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -306,7 +308,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                                 Text(
                                   "Option C",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -325,7 +327,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                   Padding(
                     padding: const EdgeInsets.only(bottom: 60),
                     child: Container(
-                      height: 510,
+                      height: 560,
                       width: 370,
                       decoration: BoxDecoration(
                         color: backgroundcolor,
@@ -369,7 +371,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                                 Text(
                                   "Option A",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -402,7 +404,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                                 Text(
                                   "Option B",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -434,7 +436,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                                 Text(
                                   "Option C",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -452,7 +454,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                   Padding(
                     padding: const EdgeInsets.only(bottom: 60),
                     child: Container(
-                      height: 510,
+                      height: 560,
                       width: 370,
                       decoration: BoxDecoration(
                         color: backgroundcolor,
@@ -496,7 +498,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                                 Text(
                                   "Option A",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -529,7 +531,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                                 Text(
                                   "Option B",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -561,7 +563,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                                 Text(
                                   "Option C",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -579,7 +581,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                   Padding(
                     padding: const EdgeInsets.only(bottom: 60),
                     child: Container(
-                      height: 510,
+                      height: 560,
                       width: 370,
                       decoration: BoxDecoration(
                         color: backgroundcolor,
@@ -623,7 +625,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                                 Text(
                                   "Option A",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -656,7 +658,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                                 Text(
                                   "Option B",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -688,7 +690,7 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                                 Text(
                                   "Option C",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -726,6 +728,9 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                         child: ElevatedButton(
                           onPressed: () {
                             if (counter == 5) {
+                              AudioPlayer()
+                                  .play(AssetSource('correct_answer.mp3'));
+                              Vibration.vibrate();
                               Navigator.of(context).push(
                                 MaterialPageRoute(
                                   builder: (context) =>
@@ -733,6 +738,9 @@ class _JavascriptTestWidgetState extends State<JavascriptTestWidget> {
                                 ),
                               );
                             } else {
+                              AudioPlayer()
+                                  .play(AssetSource('wrong_answer.mp3'));
+                              Vibration.vibrate();
                               String counterStr = counter.toString();
                               ScaffoldMessenger.of(context).showSnackBar(
                                 SnackBar(

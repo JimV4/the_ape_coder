@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:ape_coder/Java/JavaTestSuccessful.dart';
 import 'JavaLessons.dart';
+import 'package:vibration/vibration.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 const backgroundcolor = Color.fromARGB(255, 47, 47, 47);
 bool Q1A_checked_java = false;
@@ -67,7 +69,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                   Padding(
                     padding: const EdgeInsets.only(bottom: 60),
                     child: Container(
-                      height: 510,
+                      height: 560,
                       width: 370,
                       decoration: BoxDecoration(
                         color: backgroundcolor,
@@ -110,7 +112,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                                 Text(
                                   "Option A",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -142,7 +144,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                                 Text(
                                   "Option B",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -173,7 +175,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                                 Text(
                                   "Option C",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -194,7 +196,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                   Padding(
                     padding: const EdgeInsets.only(bottom: 60),
                     child: Container(
-                      height: 510,
+                      height: 560,
                       width: 370,
                       decoration: BoxDecoration(
                         color: backgroundcolor,
@@ -237,7 +239,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                                 Text(
                                   "Option A",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -269,7 +271,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                                 Text(
                                   "Option B",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -300,7 +302,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                                 Text(
                                   "Option C",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -319,7 +321,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                   Padding(
                     padding: const EdgeInsets.only(bottom: 60),
                     child: Container(
-                      height: 510,
+                      height: 560,
                       width: 370,
                       decoration: BoxDecoration(
                         color: backgroundcolor,
@@ -362,7 +364,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                                 Text(
                                   "Option A",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -394,7 +396,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                                 Text(
                                   "Option B",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -425,7 +427,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                                 Text(
                                   "Option C",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -443,7 +445,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                   Padding(
                     padding: const EdgeInsets.only(bottom: 60),
                     child: Container(
-                      height: 510,
+                      height: 560,
                       width: 370,
                       decoration: BoxDecoration(
                         color: backgroundcolor,
@@ -486,7 +488,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                                 Text(
                                   "Option A",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -518,7 +520,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                                 Text(
                                   "Option B",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -549,7 +551,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                                 Text(
                                   "Option C",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -567,7 +569,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                   Padding(
                     padding: const EdgeInsets.only(bottom: 60),
                     child: Container(
-                      height: 510,
+                      height: 560,
                       width: 370,
                       decoration: BoxDecoration(
                         color: backgroundcolor,
@@ -610,7 +612,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                                 Text(
                                   "Option A",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -642,7 +644,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                                 Text(
                                   "Option B",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -673,7 +675,7 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                                 Text(
                                   "Option C",
                                   style: TextStyle(
-                                      color: Colors.white, fontSize: 20),
+                                      color: Colors.white, fontSize: 18),
                                 ),
                               ],
                             ),
@@ -711,6 +713,9 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                         child: ElevatedButton(
                           onPressed: () {
                             if (counter == 5) {
+                              AudioPlayer()
+                                  .play(AssetSource('correct_answer.mp3'));
+                              Vibration.vibrate();
                               Navigator.of(context).push(
                                 MaterialPageRoute(
                                   builder: (context) =>
@@ -718,6 +723,9 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                                 ),
                               );
                             } else {
+                              AudioPlayer()
+                                  .play(AssetSource('wrong_answer.mp3'));
+                              Vibration.vibrate();
                               String counterStr = counter.toString();
                               ScaffoldMessenger.of(context).showSnackBar(
                                 SnackBar(

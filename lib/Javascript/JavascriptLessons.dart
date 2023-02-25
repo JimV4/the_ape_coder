@@ -468,8 +468,8 @@ class _JavascriptLessonsWidgetState extends State<JavascriptLessonsWidget> {
                                         ),
                                       ),
                                       child: Text(
-                                          "Complete all lessons before taking the final test!",
-                                          style: TextStyle(fontSize: 20)),
+                                          "Complete all lessons before taking the test!",
+                                          style: TextStyle(fontSize: 14)),
                                     ),
                                   ),
                                 )

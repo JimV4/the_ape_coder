@@ -461,8 +461,8 @@ class _JavaLessonsWidgetState extends State<JavaLessonsWidget> {
                                         ),
                                       ),
                                       child: Text(
-                                          "Complete all lessons before taking the final test!",
-                                          style: TextStyle(fontSize: 20)),
+                                          "Complete all lessons before taking the test!",
+                                          style: TextStyle(fontSize: 14)),
                                     ),
                                   ),
                                 )
