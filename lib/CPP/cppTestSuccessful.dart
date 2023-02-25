@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'cppLessons.dart';
 import 'package:ape_coder/main.dart';
@@ -24,10 +26,12 @@ class _CppTestSuccessfulWidgetState extends State<CppTestSuccessfulWidget> {
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(
           behavior: SnackBarBehavior.floating,
           backgroundColor: Color.fromARGB(255, 243, 223, 45),
-          duration: Duration(milliseconds: 2000),
+          duration: Duration(milliseconds: 2500),
           content: Positioned(
             top: 100,
-            child: Text("Congratulations! You have advanced to C++ Gorilla!"),
+            child: Text("Congratulations! You have advanced to C++ Gorilla!",
+                style: TextStyle(color: Colors.black, fontSize: 14)),
+
             //),
           ),
         ));
