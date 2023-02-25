@@ -99,9 +99,9 @@ class _CppLessonAnswerWidgetState extends State<CppLessonAnswerWidget> {
                                 ),
                               );
                             } else {
-                              AudioPlayer()
+                              /* AudioPlayer()
                                   .play(AssetSource('wrong_answer.mp3'));
-                              Vibration.vibrate();
+                              Vibration.vibrate(); */
 
                               ScaffoldMessenger.of(context).showSnackBar(
                                 SnackBar(
