@@ -1,4 +1,4 @@
-#Sat Feb 25 13:32:37 EET 2023
+#Sat Feb 25 21:44:16 EET 2023
 base.0=C\:\\dev\\applications\\the_ape_coder\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
