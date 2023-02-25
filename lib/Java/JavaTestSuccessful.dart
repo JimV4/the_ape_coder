@@ -24,10 +24,11 @@ class _JavaTestSuccessfulWidgetState extends State<JavaTestSuccessfulWidget> {
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(
           behavior: SnackBarBehavior.floating,
           backgroundColor: Color.fromARGB(255, 243, 223, 45),
-          duration: Duration(milliseconds: 2000),
+          duration: Duration(milliseconds: 3000),
           content: Positioned(
             top: 100,
-            child: Text("Congratulations! You have advanced to Java Gorilla!"),
+            child: Text("Congratulations! You have advanced to Java Gorilla!",
+                style: TextStyle(color: Colors.black, fontSize: 14)),
             //),
           ),
         ));
