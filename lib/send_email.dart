@@ -3,10 +3,10 @@ import 'package:http/http.dart' as http;
 import 'package:ape_coder/Profile.dart';
 
 Future sendEmail({required String language}) async {
-  const serviceId = 'service_1gr82kg';
-  const templateId = 'template_2lfcu1c';
-  const publicKey = 'I3cCCV2WgXSIetL5W';
-  const privateKey = 'RP9ig4sXWnF2RQaFX0QPF';
+  const serviceId = '***';
+  const templateId = '***';
+  const publicKey = '***';
+  const privateKey = '***';
 
   final url = Uri.parse('https://api.emailjs.com/api/v1.0/email/send');
   final response = await http.post(
@@ -29,7 +29,7 @@ Future sendEmail({required String language}) async {
         /* ' This email shows that you are worthy of holding the holly programming banana!'
               ' Farewell as you continue your journey in the jungle of programming languages!' */
         ,
-        'from_email': 'dhmhtrhs.vassiliou@gmail.com'
+        'from_email': '***'
       }
     }),
   );
