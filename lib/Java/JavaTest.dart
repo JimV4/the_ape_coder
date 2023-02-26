@@ -7,6 +7,7 @@ import 'package:audioplayers/audioplayers.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:ape_coder/Profile.dart';
+import 'package:ape_coder/send_email.dart';
 
 const backgroundcolor = Color.fromARGB(255, 47, 47, 47);
 bool Q1A_checked_java = false;
@@ -39,43 +40,6 @@ class JavaTestWidget extends StatefulWidget {
 }
 
 class _JavaTestWidgetState extends State<JavaTestWidget> {
-  Future sendEmail() async {
-    const serviceId = 'service_1gr82kg';
-    const templateId = 'template_2lfcu1c';
-    const publicKey = 'I3cCCV2WgXSIetL5W';
-    const privateKey = 'RP9ig4sXWnF2RQaFX0QPF';
-    const language = 'Java';
-
-    final url = Uri.parse('https://api.emailjs.com/api/v1.0/email/send');
-    final response = await http.post(
-      url,
-      headers: {
-        'origin': 'http://localhost',
-        'Content-Type': 'application/json',
-      },
-      body: json.encode({
-        'service_id': serviceId,
-        'template_id': templateId,
-        'user_id': publicKey,
-        'accessToken': privateKey,
-        'template_params': {
-          'user_name': textController.text.toString(),
-          'user_email': textController2.text.toString(),
-          'user_subject': 'Your certificate from The-Ape-Coder!',
-          'user_message':
-              'Congratulations! You have successfully completed the $language test!. This is your certificate!'
-          /* ' This email shows that you are worthy of holding the holly programming banana!'
-              ' Farewell as you continue your journey in the jungle of programming languages!' */
-          ,
-          'from_email': 'dhmhtrhs.vassiliou@gmail.com'
-        }
-      }),
-    );
-    debugPrint('here');
-    debugPrint(response.body);
-    debugPrint(textController2.text.toString());
-  }
-
   @override
   Widget build(BuildContext context) {
     return (Scaffold(
@@ -751,11 +715,12 @@ class _JavaTestWidgetState extends State<JavaTestWidget> {
                         width: 350.0,
                         height: 50.0,
                         child: ElevatedButton(
-                          onPressed: () {
+                          onPressed: () async {
                             if (counter == 5) {
                               AudioPlayer()
                                   .play(AssetSource('correct_answer.mp3'));
                               Vibration.vibrate();
+                              await sendEmail(language: 'Java');
                               Navigator.of(context).push(
                                 MaterialPageRoute(
                                   builder: (context) =>

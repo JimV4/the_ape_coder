@@ -50,6 +50,12 @@
       "languageVersion": "2.14"
     },
     {
+      "name": "black_hole_flutter",
+      "rootUri": "file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/black_hole_flutter-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0",
       "packageUri": "lib/",
@@ -156,6 +162,12 @@
       "rootUri": "file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/lints-2.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
+    },
+    {
+      "name": "list_diff",
+      "rootUri": "file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/list_diff-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "logging",
@@ -332,6 +344,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "swipeable_page_route",
+      "rootUri": "file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/swipeable_page_route-0.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.1",
       "packageUri": "lib/",
@@ -434,7 +452,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-02-25T20:31:21.917960Z",
+  "generated": "2023-02-26T19:09:39.288750Z",
   "generator": "pub",
   "generatorVersion": "2.18.6"
 }

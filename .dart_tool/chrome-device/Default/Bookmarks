@@ -1,0 +1,50 @@
+{
+   "checksum": "96faf7498744fee08f31ad1f50950aba",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13289176706077245",
+            "date_last_used": "0",
+            "guid": "acc51c02-2e9b-4dce-b257-fea76dd1345e",
+            "id": "5",
+            "name": "Νέα καρτέλα",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "edge://newtab/"
+         } ],
+         "date_added": "13321910169170320",
+         "date_last_used": "0",
+         "date_modified": "13289176706077245",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13321910169170323",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13321910169170324",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CkEKHgiIgQISCNqHpOeDAQAAKg4QABgBIAAoBDAAOABAABIAIAEqGFRZVHU2WHlCTmZuK2p2RXZGRi8xbkE9PaAGDBKnAQgFEqIBChxTejR4Z21zbTZxam81TnlIdnZpTjQ0YWtQNE09EiRhY2M1MWMwMi0yZTliLTRkY2UtYjI1Ny1mZWE3NmRkMTM0NWUYACAAKAAwnJzH/+4vOL2cx//uL0C9nMf/7i9KHHp0aExxMEhmeU9FTnoyblc3VGRGZFZCWk1qaz1aHiIccDdta0tSWVY4dHRORmNKN1lqWXZncFhCeXdrPWXYr7ACEokBCAEShAEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJGYxOWUwZTk0LWMyZGEtNTVkZC04YjJlLWRjY2I3MGE0OWYxNxgAIAAoADC+qr/ksDA47ZfJ1uwvQO2XydbsL0ocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAASiQEIAhKEAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkZTFlNGM2NjgtMGNkMC01YmMyLWFiNDktMDUyMWVhMzcyZTNlGAAgACgAML6qv+SwMDjdl8nW7C9A3ZfJ1uwvShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABKJAQgDEoQBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQwODQwNjYxNS1mM2UyLTU5NGUtYWFmYS01Y2RmZDQ4NWIyZGQYACAAKAAwvqq/5LAwOK6XydbsL0Cul8nW7C9KHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAMAA4AA==",
+   "version": 1
+}

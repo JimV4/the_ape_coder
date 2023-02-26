@@ -34,6 +34,10 @@ audioplayers_windows
 2.14
 file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers_windows-1.1.1/
 file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers_windows-1.1.1/lib/
+black_hole_flutter
+2.18
+file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/black_hole_flutter-1.0.0/
+file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/black_hole_flutter-1.0.0/lib/
 boolean_selector
 2.12
 file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0/
@@ -94,6 +98,10 @@ lints
 2.17
 file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/lints-2.0.1/
 file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/lints-2.0.1/lib/
+list_diff
+2.12
+file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/list_diff-2.0.1/
+file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/list_diff-2.0.1/lib/
 logging
 2.18
 file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/logging-1.1.1/
@@ -206,6 +214,10 @@ string_scanner
 2.12
 file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.1/
 file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.1/lib/
+swipeable_page_route
+2.18
+file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/swipeable_page_route-0.3.0/
+file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/swipeable_page_route-0.3.0/lib/
 term_glyph
 2.12
 file:///C:/dev/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.1/
