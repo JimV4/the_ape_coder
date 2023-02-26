@@ -40,7 +40,8 @@ dependencies:
   percent_indicator: ^4.2.2
   url_launcher: ^6.1.7
   shared_preferences: ^2.0.17
-  mailer: ^5.0.1
+  mailer: ^6.0.0
+  http: ^0.13.5
 
 dev_dependencies:
   flutter_test:

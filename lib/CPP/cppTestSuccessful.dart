@@ -3,6 +3,9 @@ import 'cppLessons.dart';
 import 'package:ape_coder/main.dart';
 import 'package:ape_coder/CPP/cppLessons.dart';
 import '../Profile.dart';
+import 'dart:convert';
+import 'package:http/http.dart' as http;
+import 'package:ape_coder/Profile.dart';
 
 class CppTestSuccessfulWidget extends StatefulWidget {
   const CppTestSuccessfulWidget({Key? key}) : super(key: key);
@@ -127,6 +130,39 @@ class _CppTestSuccessfulWidgetState extends State<CppTestSuccessfulWidget> {
       ),
     );
   }
+
+  /* Future sendEmail() async {
+    const serviceId = 'service_iyivi2k';
+    const templateId = 'template_h6vun5l';
+    const apiPublicKey = 'DZxzXAlIExeNafxR6';
+    const language = 'C++';
+
+    final url = Uri.parse('https://api.emailjs.com/api/v1.0/email/send');
+    final response = await http.post(
+      url,
+      headers: {
+        'origin': 'http://localhost',
+        'Content-Type': 'application/json',
+      },
+      body: json.encode({
+        'service_id': serviceId,
+        'template_id': templateId,
+        'api_public_key': apiPublicKey,
+        'template-params': {
+          'to_name': 'Fellow coder',
+          'to_email': textController2.toString(),
+          'subject': 'Your certificate from The-Ape-Coder!',
+          'message': 'Congratulations! You have successfully completed the $language test!'
+              ' This email shows that you are worthy of holding the holly programming banana!'
+              ' Farewell as you continue your journey in the jungle of programming languages!',
+          'from_email': 'ioannhsyan76@gmail.com'
+        }
+      }),
+    );
+
+    debugPrint(response.body);
+    print(textController2.toString());
+  } */
 
   /*  void showInSnackBar(String value) {
     scaffoldKey.currentState

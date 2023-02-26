@@ -3,6 +3,8 @@ import 'package:ape_coder/CPP/cppLessonAnswer.dart';
 import 'package:ape_coder/CPP/cppLessons.dart';
 
 const backgroundcolor = Color.fromARGB(255, 47, 47, 47);
+final textController2 = TextEditingController();
+final textController = TextEditingController();
 
 late bool cppCompleted = false,
     javaCompleted = false,
@@ -17,8 +19,6 @@ class ProfileWidget extends StatefulWidget {
 }
 
 class _ProfileWidgetState extends State<ProfileWidget> {
-  final _textController = TextEditingController();
-  final _textController2 = TextEditingController();
   final _textController3 = TextEditingController();
   String userPost = '';
 
@@ -58,7 +58,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                 child: Column(
                   children: <Widget>[
                     TextField(
-                      controller: _textController,
+                      controller: textController,
                       maxLines: 1,
                       style: TextStyle(color: Colors.white),
                       decoration: InputDecoration(
@@ -111,7 +111,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                     Padding(
                       padding: EdgeInsets.only(left: 8),
                       child: TextField(
-                        controller: _textController2,
+                        controller: textController2,
                         maxLines: 1,
                         style: TextStyle(color: Colors.white),
                         decoration: InputDecoration(
